@@ -13,7 +13,7 @@
 									<strong class="green">Admin
 										<small>(v1.0)</small>
                                     </strong>,
-	Panel<a href="https://github.com/bopoda/ace">to implement</a>  Billing
+	Panel<a href="https://github.com/bopoda/ace"> to implement</a>  Billing
     </div>
     <div class="row">
         <div class="space-6"></div>
