@@ -314,7 +314,7 @@
 								</li>
 
 								<li class="dropdown-footer">
-									<a href="inbox.html">
+									<a href="<%= Url.Action("Index", "Home") %>">
 										See all messages
 										<i class="ace-icon fa fa-arrow-right"></i>
 									</a>
@@ -342,7 +342,7 @@
 								</li>
 
 								<li>
-									<a href="profile.html">
+									<a href="<%= Url.Action("Index", "Home") %>">
 										<i class="ace-icon fa fa-user"></i>
 										Profile
 									</a>
@@ -405,9 +405,9 @@
 
 				<ul class="nav nav-list">
 					<li class="active">
-						<a href="index.html">
+						<a href="<%= Url.Action("Index", "Home") %>">
 							<i class="menu-icon fa fa-tachometer"></i>
-							<span class="menu-text">Home <%--Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%></span>
+							<span class="menu-text">Home</span>
 						</a>
 
 						<b class="arrow"></b>
@@ -417,7 +417,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-desktop"></i>
 							<span class="menu-text">
-								Home <%--Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+								Home
 							</span>
 
 							<b class="arrow fa fa-angle-down"></b>
@@ -430,7 +430,7 @@
 								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
 
-									Home <%--Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 									<b class="arrow fa fa-angle-down"></b>
 								</a>
 
@@ -438,54 +438,54 @@
 
 								<ul class="submenu">
 									<li class="">
-										<a href="top-menu.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home <%--Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
 									</li>
 
 									<li class="">
-										<a href="two-menu-1.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home <%--Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
 									</li>
 
 									<li class="">
-										<a href="two-menu-2.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
 									</li>
 
 									<li class="">
-										<a href="mobile-menu-1.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
 									</li>
 
 									<li class="">
-										<a href="mobile-menu-2.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
 									</li>
 
 									<li class="">
-										<a href="mobile-menu-3.html">
+										<a href="<%= Url.Action("Index", "Home") %>">
 											<i class="menu-icon fa fa-caret-right"></i>
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
@@ -494,63 +494,63 @@
 							</li>
 
 							<li class="">
-								<a href="typography.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="elements.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="buttons.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="content-slider.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="treeview.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="jquery-ui.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="nestable-list.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
@@ -560,7 +560,7 @@
 								<a href="#" class="dropdown-toggle">
 									<i class="menu-icon fa fa-caret-right"></i>
 
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 									<b class="arrow fa fa-angle-down"></b>
 								</a>
 
@@ -570,7 +570,7 @@
 									<li class="">
 										<a href="#">
 											<i class="menu-icon fa fa-leaf green"></i>
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 										</a>
 
 										<b class="arrow"></b>
@@ -580,7 +580,7 @@
 										<a href="#" class="dropdown-toggle">
 											<i class="menu-icon fa fa-pencil orange"></i>
 
-											Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+											Home
 											<b class="arrow fa fa-angle-down"></b>
 										</a>
 
@@ -590,7 +590,7 @@
 											<li class="">
 												<a href="#">
 													<i class="menu-icon fa fa-plus purple"></i>
-													Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+													Home
 												</a>
 
 												<b class="arrow"></b>
@@ -599,7 +599,7 @@
 											<li class="">
 												<a href="#">
 													<i class="menu-icon fa fa-eye pink"></i>
-													Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+													Home
 												</a>
 
 												<b class="arrow"></b>
@@ -614,7 +614,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
-							<span class="menu-text"> Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%> </span>
+							<span class="menu-text"> Home </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -623,18 +623,18 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="tables.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="jqgrid.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
@@ -645,7 +645,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%> </span>
+							<span class="menu-text"> Home </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -654,45 +654,45 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="form-elements.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="form-elements-2.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="form-wizard.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="wysiwyg.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="dropzone.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
@@ -701,20 +701,20 @@
 					</li>
 
 					<li class="">
-						<a href="widgets.html">
+						<a href="<%= Url.Action("Index", "Home") %>">
 							<i class="menu-icon fa fa-list-alt"></i>
-							<span class="menu-text"> Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%> </span>
+							<span class="menu-text"> Home </span>
 						</a>
 
 						<b class="arrow"></b>
 					</li>
 
 					<li class="">
-						<a href="calendar.html">
+						<a href="<%= Url.Action("Index", "Home") %>">
 							<i class="menu-icon fa fa-calendar"></i>
 
 							<span class="menu-text">
-								Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+								Home
 
 								<span class="badge badge-transparent tooltip-error" title="2 Important Events">
 									<i class="ace-icon fa fa-exclamation-triangle red bigger-130"></i>
@@ -726,9 +726,9 @@
 					</li>
 
 					<li class="">
-						<a href="gallery.html">
+						<a href="<%= Url.Action("Index", "Home") %>">
 							<i class="menu-icon fa fa-picture-o"></i>
-							<span class="menu-text"> Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%> </span>
+							<span class="menu-text"> Home </span>
 						</a>
 
 						<b class="arrow"></b>
@@ -737,7 +737,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-tag"></i>
-							<span class="menu-text"> Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%> </span>
+							<span class="menu-text"> Home </span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -746,72 +746,72 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="profile.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="inbox.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="pricing.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="invoice.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="timeline.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="search.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="email.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="login.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
@@ -824,7 +824,7 @@
 							<i class="menu-icon fa fa-file-o"></i>
 
 							<span class="menu-text">
-								Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+								Home
 
 								<span class="badge badge-primary">5</span>
 							</span>
@@ -836,45 +836,45 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="faq.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="error-404.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="error-500.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="grid.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
 							<li class="">
-								<a href="blank.html">
+								<a href="<%= Url.Action("Index", "Home") %>">
 									<i class="menu-icon fa fa-caret-right"></i>
-									Home<%--<%: Html.ActionLink("Dashboard", "Index", "Home") %>--%>
+									Home
 								</a>
 
 								<b class="arrow"></b>
